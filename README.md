@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails api モード × postgresql
 
-Things you may want to cover:
+## version
 
-* Ruby version
+- ruby 3.2.1
+- rails 7.0.8
+- postgresql 15.5
 
-* System dependencies
+## setup
 
-* Configuration
+`git clone "this repository"`
 
-* Database creation
+`cd rails7api-pg/`
 
-* Database initialization
+## run
 
-* How to run the test suite
+`docker-compose up`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[localhost:3000](http://localhost:3000/)
